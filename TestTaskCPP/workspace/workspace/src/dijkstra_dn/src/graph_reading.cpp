@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv) {
     std::ifstream in;
-    in.open("/home/dmitry/ros_projects/p_3/workspace/graph.txt");
+    in.open("TestTaskCPP/workspace/workspace/graph.txt");
     if (!in.is_open())
         ROS_INFO("Unable to open the file");
     int lin = 0;
@@ -50,8 +50,8 @@ int main(int argc, char **argv) {
     delete [] a;
     in.close();
     while (ros::ok()) {
-	if (pub.getNumSubscribers() != 0) {
-	    //ROS_INFO("subscriber number: %d ", pub.getNumSubscribers());
+	    if (pub.getNumSubscribers() != 0) {
+	        //ROS_INFO("subscriber number: %d ", pub.getNumSubscribers());
             pub.publish(dat); 
             ROS_INFO("Published");
             return 0;
