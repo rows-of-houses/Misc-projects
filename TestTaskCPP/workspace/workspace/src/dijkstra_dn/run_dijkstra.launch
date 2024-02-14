@@ -1,0 +1,4 @@
+<launch>
+<node pkg="dijkstra_dn" type="publisher" name="publisher" output="screen"/>
+<node pkg="dijkstra_dn" type="subscriber" name="subscriber" output="screen"/>
+</launch>

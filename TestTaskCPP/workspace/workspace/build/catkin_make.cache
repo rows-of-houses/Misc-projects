@@ -1,0 +1,2 @@
+dijkstra_dn
+-DCATKIN_DEVEL_PREFIX=/home/dmitry/ros_projects/p_3/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/dmitry/ros_projects/p_3/workspace/install -G Unix Makefiles

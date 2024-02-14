@@ -1,0 +1,8 @@
+prefix=/home/dmitry/ros_projects/p_3/workspace/install
+
+Name: dijkstra_dn
+Description: Description of dijkstra_dn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
